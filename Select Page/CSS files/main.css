@@ -1,0 +1,12 @@
+.main {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    grid-gap: 20px;
+    margin: 17px;
+    min-height: 93vh;
+    max-width: 100%;
+    max-height: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}

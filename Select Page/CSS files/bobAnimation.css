@@ -1,0 +1,22 @@
+@keyframes bounce-background {
+    from {
+        background-position: top;
+    }
+    50% {
+        background-position: bottom;
+    }
+    to {
+        background-position: top;
+    }
+}
+.bobAnimation {
+    animation-name: bounce-background;
+    animation-timing-function: ease-in-out;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+   -webkit-animation-name: bounce-background;
+   -webkit-animation-timing-function:ease-in-out;
+   -webkit-animation-duration:20s;
+   -webkit-animation-iteration-count:infinite;
+}

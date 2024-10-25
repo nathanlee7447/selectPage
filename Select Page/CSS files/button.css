@@ -1,0 +1,39 @@
+.button {
+    position: inline-block;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size:32px;
+    text-decoration: none;
+    margin-top: 65vh;
+    margin-right: 0px;
+    padding: 16px 32px;
+    border-radius: 15px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: relative;
+  opacity: 0;
+  top: 0;
+  right: 4vw;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 1vw;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
