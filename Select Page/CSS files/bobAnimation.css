@@ -9,6 +9,7 @@
         background-position: top;
     }
 }
+
 .bobAnimation {
     animation-name: bounce-background;
     animation-timing-function: ease-in-out;
@@ -17,6 +18,20 @@
 
    -webkit-animation-name: bounce-background;
    -webkit-animation-timing-function:ease-in-out;
-   -webkit-animation-duration:20s;
+   -webkit-animation-duration:8s;
    -webkit-animation-iteration-count:infinite;
+
+   border: 3px solid;
+   border-color: aliceblue;
+   border-radius: 25px;
+   background-size: auto 95vh;
+}
+
+.bobAnimation > p {
+    opacity: 0;
+    transition: 1s;
+}
+
+.bobAnimation:hover > p {
+    opacity: 1;
 }
