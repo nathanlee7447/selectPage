@@ -1,0 +1,14 @@
+.subsection {
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 1.5vh;
+    /*border: 2px solid;
+    border-color: #000000;*/
+    width: 45vw;
+    height: 39.5vh;
+
+    display:grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    grid-gap:0px;
+}

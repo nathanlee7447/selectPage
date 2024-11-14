@@ -1,0 +1,12 @@
+.header {
+    width: 100%;
+    height:11%;
+    text-align: center;
+    background-color: black;
+    background: linear-gradient(90deg,black 0 30%,#524c4ec4 45% 55%,black 70% 100%);
+    border-bottom: 1px solid;
+    border-color: white;
+    /*rgb(206, 222, 255);*/
+}
+
+html, body {margin:0;}

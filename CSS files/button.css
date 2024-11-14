@@ -1,0 +1,44 @@
+.button{
+    margin: auto;
+    background-color: rgb(237, 73, 150);
+    border-radius: 30px;
+    outline: none;
+    padding: 2vh;
+    max-width: 70%;
+    height: 8%;
+    cursor: pointer;
+    
+    color:black;
+    text-align: center;
+    text-decoration:none;
+    font-size: 2.1vh;
+    font-weight: 700;
+    font-family: 'Poppins';
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    background-color: rgb(237, 8, 113);
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00bb';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    right: 4vw;
+    transition: 0.5s;
+}
+.button:hover span {
+    padding-right: 1vw;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}

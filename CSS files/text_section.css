@@ -1,0 +1,28 @@
+.text_section {
+    text-align: center;
+    border: 1px solid;
+    border-left: 0px solid;
+    border-color: rgb(255, 255, 255);
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    margin-right: 0.5vw;
+    font-weight: 400;
+    font-family: "Poppins";
+    color:white;
+}
+
+.text_section > h1 {
+    font-family: "Open Sans";
+    font-size: 3.5vh;
+    font-weight: 900;
+    margin-bottom: 6vh;
+}
+
+.text_section > .location {
+    font-size:2.6vh;
+}
+
+.text_section > .phoneNumber {
+    display:inline;
+    font-size: 2.5vh;
+}
