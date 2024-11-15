@@ -5,10 +5,16 @@
     /*border: 2px solid;
     border-color: #000000;*/
     width: 45vw;
-    height: 39.5vh;
+    height: 40vh;
 
     display:grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: auto;
     grid-gap:0px;
+}
+@media screen and (max-height:500px), screen and (max-width:500px) {
+    .subsection{
+        width:90vw;
+        height: 50vh;
+    }
 }
